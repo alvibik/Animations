@@ -8,18 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		C1851D4F26B14B940007DB00 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1851D4E26B14B940007DB00 /* AnimationsApp.swift */; };
-		C1851D5126B14B940007DB00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1851D5026B14B940007DB00 /* ContentView.swift */; };
+		C1851D5126B14B940007DB00 /* ImplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1851D5026B14B940007DB00 /* ImplicitAnimation.swift */; };
 		C1851D5326B14B990007DB00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1851D5226B14B990007DB00 /* Assets.xcassets */; };
 		C1851D5626B14B990007DB00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1851D5526B14B990007DB00 /* Preview Assets.xcassets */; };
+		C1851D5E26B18EFC0007DB00 /* ExplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1851D5D26B18EFC0007DB00 /* ExplicitAnimation.swift */; };
+		C1851D6026B22ED60007DB00 /* GestureAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1851D5F26B22ED60007DB00 /* GestureAnimating.swift */; };
+		C1851D6226B232880007DB00 /* GestureAnimating2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1851D6126B232880007DB00 /* GestureAnimating2.swift */; };
+		C1851D6426B237C80007DB00 /* ShowingHidingViewsWithTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1851D6326B237C80007DB00 /* ShowingHidingViewsWithTransitions.swift */; };
+		C1851D6626B2396F0007DB00 /* CustomTransitionsViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1851D6526B2396F0007DB00 /* CustomTransitionsViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C1851D4B26B14B940007DB00 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1851D4E26B14B940007DB00 /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
-		C1851D5026B14B940007DB00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1851D5026B14B940007DB00 /* ImplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimation.swift; sourceTree = "<group>"; };
 		C1851D5226B14B990007DB00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1851D5526B14B990007DB00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C1851D5726B14B990007DB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1851D5D26B18EFC0007DB00 /* ExplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimation.swift; sourceTree = "<group>"; };
+		C1851D5F26B22ED60007DB00 /* GestureAnimating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAnimating.swift; sourceTree = "<group>"; };
+		C1851D6126B232880007DB00 /* GestureAnimating2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAnimating2.swift; sourceTree = "<group>"; };
+		C1851D6326B237C80007DB00 /* ShowingHidingViewsWithTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingHidingViewsWithTransitions.swift; sourceTree = "<group>"; };
+		C1851D6526B2396F0007DB00 /* CustomTransitionsViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionsViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				C1851D4E26B14B940007DB00 /* AnimationsApp.swift */,
-				C1851D5026B14B940007DB00 /* ContentView.swift */,
+				C1851D5F26B22ED60007DB00 /* GestureAnimating.swift */,
+				C1851D6126B232880007DB00 /* GestureAnimating2.swift */,
+				C1851D6326B237C80007DB00 /* ShowingHidingViewsWithTransitions.swift */,
+				C1851D6526B2396F0007DB00 /* CustomTransitionsViewModifier.swift */,
+				C1851D5026B14B940007DB00 /* ImplicitAnimation.swift */,
+				C1851D5D26B18EFC0007DB00 /* ExplicitAnimation.swift */,
 				C1851D5226B14B990007DB00 /* Assets.xcassets */,
 				C1851D5726B14B990007DB00 /* Info.plist */,
 				C1851D5426B14B990007DB00 /* Preview Content */,
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1851D5126B14B940007DB00 /* ContentView.swift in Sources */,
+				C1851D6426B237C80007DB00 /* ShowingHidingViewsWithTransitions.swift in Sources */,
+				C1851D6626B2396F0007DB00 /* CustomTransitionsViewModifier.swift in Sources */,
+				C1851D6026B22ED60007DB00 /* GestureAnimating.swift in Sources */,
+				C1851D6226B232880007DB00 /* GestureAnimating2.swift in Sources */,
+				C1851D5126B14B940007DB00 /* ImplicitAnimation.swift in Sources */,
 				C1851D4F26B14B940007DB00 /* AnimationsApp.swift in Sources */,
+				C1851D5E26B18EFC0007DB00 /* ExplicitAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
